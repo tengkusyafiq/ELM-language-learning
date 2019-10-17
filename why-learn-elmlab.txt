@@ -1,0 +1,54 @@
+https://github.com/dwyl/learn-elm/issues/129
+better user experience (faster page load time, no errors and more responsive UI!), 
+better developer experience (friendly compiler warnings, faster compilation and clear upgrade instructions!) 
+and thus lead to a better bottom line for the company using Elm!
+
+Total Cost of Ownership for the lifetime of the project 
+is considerably lower than other frameworks because 
+maintenance (the majority of the life of an application) 
+is much easier due to compiler warnings which prevent changes 
+to your app that don't compile.
+
+No Run-time Errors - zero chance of an Elm program throwing 
+an error which "breaks" the UI!
+
+Enforced Semantic Versioning! Means that if something changes in a package that you depend on (a "dependency") the author of that dependency is forced to update the version number which means you will receive a warning that it is no longer compatible
+ with your App, i.e. impossible to "break" production!!
+
+The speed is seriously much much faster that react etc.
+
+Progressive Web Apps, you can just make one, and generate
+web, android and ios app with the same code.
+
+Apps built with Elm are much more lightweight than other front-end frameworks and most cases will load in under a second on a mobile connection. We often see cases of Mobile Web Apps built with other web frameworks that
+have a 1mb+ "bundle" which takes 10 seconds to load on 3G!!
+
+
+https://www.codementor.io/lb0/how-i-learned-elm-erls5ij7c
+
+https://www.reddit.com/r/elm/comments/9cl8tq/mobile_apps_with_elm/
+
+
+
+https://itnext.io/from-javascript-to-typescript-to-elm-5c36fca70b4a
+Because you can so heavily depend on the Elm compiler, 
+updating and refactoring pieces of code is an absolute breeze. 
+The compiler will complain for quite a bit of time, 
+but the moment it stops from doing so, you are good to go. 
+No need to test anything, simply follow the compiler guidance 
+about each error he finds and your code will all start working 
+again once you have done so. This experience really gives you 
+a good confidence level in your software even after destroying 
+it apart and rebuilding it. (Which normally, 
+you would be unsure if you have missed something somewhere)
+
+The result is quite simple: 
+Better code, better maintainability, no runtime errors.
+
+used to write loops (While/For) and when you get to a functional style language, there is no such thing. You must use functions such as Map, Fold, Filter and more, and that is how you manipulate your data when you want to loop. I found it hard initially to get used to that.
+The result is amazing when you start to understand how it all works. You become a lot more efficient going back in an older project and applying those principles.
+
+you donts save data in variables, elm do it for you.
+
+
+LEARNING: https://elmprogramming.com
