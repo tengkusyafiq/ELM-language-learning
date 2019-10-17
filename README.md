@@ -54,7 +54,7 @@ main = beginnerProgram {model = initModel, view = view, update = update}
 
 Read the comments in the code to understand more.
 How the whole interaction works?
-![pic](./Readme-resources/howitworks.png)
+![pic](howitworks.png)
 
 ---
 
