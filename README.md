@@ -53,8 +53,9 @@ main = beginnerProgram {model = initModel, view = view, update = update}
 ```
 
 Read the comments in the code to understand more.
-How the whole interaction works?
+How the whole interaction works? See image below.
 ![pic](howitworks.PNG)
+When there is a new event in the browser like the user click the '+' button which stated as `Increment` in our `msg`, the browser gives us a Msg type to the Elm Runtime. Then, it will use the update function and it will give a new model back. The Elm Runtime will pass the new model to the View function to get the html. Then it will do the DOM thingy to differentiate and update what changes in the browser.
 
 ---
 
